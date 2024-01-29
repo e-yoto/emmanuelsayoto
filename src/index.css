@@ -45,6 +45,9 @@
 .navbar a:hover {
   color: #8cdd99;
 }
+/* .navbar img {
+  margin-left: 16px;
+} */
 .content {
   max-width: 800px;
   margin: 40px auto;
@@ -54,4 +57,62 @@
 .image-text-wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.flex-container{
+  display: flex;
+  border: 1px  solid#000;
+  align-items: center;
+  width: max-content;
+  padding: 4px;
+  background-color: #7fa0c9;
+  border-radius: 5px;
+}
+
+.flex-container img{
+  padding-right: 6px;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.project h4 {
+  margin-bottom: 1.5rem;
+}
+
+/* .Home {
+  height: 80vh;
+  width: 100vh;
+} */
+
+.bottom-right-content {
+  position: absolute;
+  bottom: 0;
+  right: 0; 
+  width: 200px; 
+  text-align:left;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.typed-description {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
