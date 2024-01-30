@@ -49,7 +49,7 @@ const Projects = () => {
                         </FlexBox>
                     </div>
                         
-                    <div className="flex-container" onClick={handleClick('https://github.com/e-yoto/gradespot')} style={{ cursor: "pointer"}}>
+                    <div className="flex-container" onClick={handleClick('https://github.com/e-yoto/QUP')} style={{ cursor: "pointer"}}>
                         
                         <img src="./assets/github-icon.png" width={'20px'}></img>
                         <Typography>View on GitHub</Typography>
