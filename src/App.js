@@ -3,6 +3,9 @@ import Navbar from './components/Navbar';
 import HomePage from './scenes/Home';
 import ProjectsPage from "./scenes/Projects";
 import ContactPage from "./scenes/Contact";
+import BlogPage from "./scenes/Blog";
+import ResumePage from "./scenes/Resume";
+
 
 function App() {
   return (
@@ -13,7 +16,9 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage/>}></Route>
             <Route path="/projects" element={<ProjectsPage/>}></Route>
+            <Route path="/blog" element={<BlogPage/>}></Route>
             <Route path="/contact" element={<ContactPage/>}></Route>
+            <Route path="/resume" element={<ResumePage/>}></Route>
           </Routes>
           
         </div>

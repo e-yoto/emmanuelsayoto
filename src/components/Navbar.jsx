@@ -9,8 +9,9 @@ const Navbar = () => {
             
                 <a href="/" onClick={() => navigate("/")} >Home</a>
                 <a href="/projects" onClick={() => navigate("/projects")}>Projects</a>
-                <a href="/blog" onClick={() => navigate("/blog")}>Blog</a>
+                {/* <a href="/resume" onClick={() => navigate("/resume")}>Resume</a> */}
                 <a href="/contact" onClick={() => navigate("/contact")}>Contact</a>
+                <a href="/blog" onClick={() => navigate("/blog")}>Blog</a>
         </nav> 
     );
 }

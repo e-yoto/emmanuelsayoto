@@ -1,15 +1,4 @@
-import { 
-    Box,
-    IconButton,
-    InputBase,
-    Typography,
-    Button,
-    Select,
-    MenuItem,
-    FormControl,
-    useTheme,
-    useMediaQuery, 
-    Icon} from "@mui/material";
+
 // import {
 //     Search,
 //     Message,
@@ -21,8 +10,6 @@ import {
 //     Close,
 //     Light
 // }  from "@mui/icons-material";
-import ImageTextWrapper from "../components/ImageTextWrapper";
-import UserImage from "../components/UserImage";
 import WidgetWrapper from "../components/WidgetWrapper";
 import FlexBox from "../components/FlexBox";
 import { ReactTyped } from "react-typed";
@@ -45,7 +32,7 @@ const Home = () => {
 
                 <FlexBox >
                     
-                    <a style={{paddingRight: "5px"}} href="https://www.linkedin.com/in/emmanuel-sayoto-71bbb9192/" target="_blank"><img src="./assets/linkedin-icon.png" width={"30px"}></img></a>
+                    <a style={{paddingRight: "5px"}} href="https://www.linkedin.com/in/emmanuel-sayoto/" target="_blank"><img src="./assets/linkedin-icon.png" width={"30px"}></img></a>
                     <a href="https://github.com/e-yoto" target="_blank"><img src="./assets/github-icon.png" width={"30px"}></img></a>
                 </FlexBox>
 
