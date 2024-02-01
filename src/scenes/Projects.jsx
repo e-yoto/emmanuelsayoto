@@ -10,6 +10,7 @@ const Projects = () => {
     const QUP_DESCRIPTION = "Q-UP is a mock social media platform that allows gamers to find teammates and new friends to play their favorite online games with.";
     const GRADESPOT_DESCRIPTION = "GradeSpot is a comprehensive platform for coordinating study groups, allowing users to schedule online sessions in a virtual collaborative space or reserve university classrooms using a QR code-based booking system.";
     const emmanuelsayoto_DESCRIPTION = "This personal website is also made by me, and is hosted on Google Cloud Platform.";
+    const SPOTIFYPREVIEWER_DESCRIPTION = "Using the official Spotify API, SpotifyPreviewer allows you to search your favorite artists, browse through their albums, listen through their preview tracks, and download their Album Covers.";
 
     const handleClick = (myLink) => () => {
         // window.location.href=myLink;    
@@ -35,7 +36,7 @@ const Projects = () => {
             */}
             <h1>Q-UP</h1>
             <WidgetWrapper className="project" marginBottom={"25px"}>
-            <div style={{ marginBottom: "25px"}}>
+            <div>
 
                 <h4>{QUP_DESCRIPTION}</h4>
 
@@ -62,6 +63,42 @@ const Projects = () => {
 
             <hr/>
 
+            {/* 
+            *
+            *
+            SpotifyPreviewer 
+            *
+            */}
+            <h1 style={{marginTop:"20px"}}>SpotifyPreviewer</h1>
+            <WidgetWrapper className="project" marginBottom={"25px"}>
+            <div>
+
+                <h4>{SPOTIFYPREVIEWER_DESCRIPTION}</h4>
+
+                <YoutubeEmbed embedId="nc_Ip5R31vI" />
+                <FlexBox style={{justifyContent: "space-between"}}>
+                    <div>
+                        <FlexBox>
+
+                        <Typography>Made with:</Typography>
+                        <img src="./assets/java-icon.png" height="50px"></img>
+                        <img src="./assets/javafx-icon.png" height="35px"></img>
+                        <img src="./assets/rest-api-icon.png" height="35px"></img>
+                        </FlexBox>
+                    </div>
+                        
+                    <div className="flex-container" onClick={handleClick('https://github.com/e-yoto/SpotifyPreviewer')} style={{ cursor: "pointer"}}>
+                        
+                        <img src="./assets/github-icon.png" width={'20px'}></img>
+                        <Typography>View on GitHub</Typography>
+                    </div>
+                </FlexBox>
+            </div>
+                
+
+            </WidgetWrapper>
+
+            <hr/>
 
             {/* 
             *
@@ -129,7 +166,7 @@ const Projects = () => {
             */}
             <h1 style={{marginTop: "25px"}}>emmanuelsayoto.com</h1>
             <WidgetWrapper className="project" marginBottom={"25px"}>
-            <div style={{ marginBottom: "25px"}}>
+            <div>
 
                 <h4>{emmanuelsayoto_DESCRIPTION}</h4>
 

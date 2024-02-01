@@ -41,7 +41,7 @@ const Home = () => {
 
                 <h1>
                     I am {" "}
-                    <ReactTyped strings={["Emmanuel", "a student", "an aspiring software developer", "a keyboard enthusiast"]} typeSpeed={100} loop />
+                    <ReactTyped strings={["Emmanuel", "a student", "an aspiring software developer"]} typeSpeed={50} loop />
                 </h1>
             </div>
 
