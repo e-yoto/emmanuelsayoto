@@ -70,6 +70,17 @@
   border-radius: 5px;
 }
 
+.flex-colab-container{
+  display: flex;
+  flex-direction:row;
+  border: 1px  solid#000;
+  align-items: center;
+  width: max-content;
+  padding: 4px;
+  background-color: #f9ab00;
+  border-radius: 5px;
+}
+
 .flex-container img{
   padding-right: 6px;
 }
